@@ -1,0 +1,12 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="GridToolsTab" label="格栅工具箱">
+                <group id="grpExpr" label="尺寸表达式">
+                    <button id="btnExprToValue" label="表达式转数值" onAction="OnAction" getImage="GetImage" visible="true" size="large" screentip="把选中单元格里如 (3150+1000)*1800 的尺寸表达式直接替换成计算结果，/ 和空单元格自动跳过"/>
+                    <button id="btnExprSum" label="表达式求和" onAction="OnAction" getImage="GetImage" visible="true" size="large" screentip="计算选中单元格里所有表达式的总和并弹窗显示，不修改单元格内容"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
