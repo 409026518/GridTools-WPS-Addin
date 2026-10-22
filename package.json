@@ -1,0 +1,6 @@
+{
+  "name": "GridTools",
+  "version": "1.0.0",
+  "addonType": "et",
+  "description": "格栅统计表工具箱：尺寸表达式转数值、表达式求和"
+}
